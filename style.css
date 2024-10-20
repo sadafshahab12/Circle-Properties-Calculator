@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  padding: 3rem;
+  border-radius: 2rem;
+  height: 100%;
+  margin: 3rem;
+  width: 45rem;
+  z-index: 100;
+  box-shadow: 0 0 0.5rem black;
+}
+.container h1 {
+
+  font-size: 3rem;
+  text-align: center;
+  text-wrap: wrap;
+  padding-bottom: 2rem;
+}
+.input-boxes {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.input-boxes input {
+  width: 100%;
+  padding: 1.5rem 1rem 1.5rem 3rem;
+  border-radius: 0.75rem;
+  outline: none;
+  font-size: 2rem;
+  border: 1px solid gray;
+  margin-top: 1rem;
+  background: transparent;
+}
+.input-boxes label {
+  font-size: 2rem;
+  text-align: left;
+  font-weight: 600;
+}
+.fixed-value {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.constant {
+  flex: 1;
+}
+.pie {
+  flex: 1;
+}
+
+.formula {
+  font-size: 2rem;
+  padding: 1rem 0 3rem 0;
+  text-align: center;
+  font-weight: 700;
+}
+.calculate {
+  width: 100%;
+  padding: 1.75rem 0;
+  margin-top: 5rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  background-color: #ffaa5d;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.calculate:active {
+  transform: scale(0.9);
+}
+.answer{
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+}
