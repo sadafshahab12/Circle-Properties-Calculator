@@ -21,10 +21,10 @@ body {
   padding: 3rem;
   border-radius: 2rem;
   height: 100%;
-  margin: 3rem;
   width: 45rem;
   z-index: 100;
   box-shadow: 0 0 0.5rem black;
+  background: linear-gradient(125deg , rgb(244, 129, 129) , rgb(230, 164, 102));
 }
 .container h1 {
 
@@ -78,7 +78,7 @@ body {
   font-size: 2.25rem;
   font-weight: 700;
   border-radius: 0.5rem;
-  background-color: #ffaa5d;
+  background-color: #c6280c;
   outline: none;
   border: none;
   cursor: pointer;
